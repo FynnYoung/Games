@@ -43,7 +43,7 @@ public class TwentyFour {
 			System.out.print((int)value);
 		}else{
 			double[] temp = paths[n].get(value);
-			if(temp[4]==1 || temp[4]==3)
+			//if(temp[4]==1 || temp[4]==3)
 				System.out.print("(");
 			
 			print((int)temp[0], temp[1]);
@@ -56,7 +56,7 @@ public class TwentyFour {
 			else
 				System.out.print("/");
 			print((int)temp[2], temp[3]);
-			if(temp[4]==1 || temp[4]==3)
+			//if(temp[4]==1 || temp[4]==3)
 				System.out.print(")");
 		}
 	}
